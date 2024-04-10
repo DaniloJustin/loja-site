@@ -1,0 +1,107 @@
+      *{
+         margin:  0;
+         padding: 0;
+      }
+
+      body{
+      background-color: #ffe8bab4; 
+      max-width: 500px;
+      min-width: 300px; 
+      margin: auto;
+      padding: 10px;
+      }
+
+      nav{
+         word-spacing: 0px;
+         }
+
+      nav a{
+         color: black;
+         text-transform: uppercase;
+         text-decoration: none;
+         font-weight: bold;
+         
+         
+      }
+      nav a:hover{
+         background-color: #ffbe31ca;
+         color: black;
+         transition: 0.2s; 
+      }
+      
+      nav li:hover{
+         font-size: 20px;
+      }
+      
+      nav ul{
+         float: right;
+         list-style: none;   
+      }  
+
+      nav li{
+         display: inline;
+         margin-right: 4px;
+         
+      }
+
+      .cabecalho{
+         display: inline-flex;  
+         background-color: #ffc880;
+         box-shadow: 0px 4px 8px #00000060; 
+         border-radius: 10px;  
+      }
+         
+      .cabecalho img{  
+         width: 40%; 
+         border-radius: 10px;     
+      }
+
+
+
+
+      /* titulo h1 */
+         
+      @font-face  {
+         font-family: "yes";
+         src: url("fonts/Cathylise Janetson.otf");
+         font-weight: normal;
+      font-style: normal;   
+      }
+      
+      .cabecalho h1{
+         
+         White-space: nowrap;
+         font-family: yes;
+         font-size: 40px;
+         text-align: justify; 
+         font-weight: normal;
+         
+         margin: auto;
+      }
+            
+      /* titulo h2 */
+      @font-face{
+         font-family: 'ter';
+         src: url("fonts/NewYork\ PERSONAL\ USE.otf");
+         font-weight: normal;   
+         font-style: normal;
+      }
+
+      .espaco{
+         
+         text-align: center;
+         font-family: ter;
+         white-space: nowrap;
+         margin: 10px;
+         
+      }
+
+      .paragrafo{
+         text-indent: 20px ;
+         text-align: justify; 
+         font-family: sans-serif;
+         font-size: 18px;     
+         letter-spacing: 0; 
+         word-spacing: 0;            
+      }
+

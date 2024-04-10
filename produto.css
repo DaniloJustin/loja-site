@@ -1,0 +1,78 @@
+      *{
+         padding: 0;
+         margin: 0;
+      }
+
+      body{
+      background-color: #ffe8bab4;
+      max-width: 500px;
+      min-width: 300px; 
+      margin: auto;
+      padding: 10px;
+      }
+
+      .lado{
+      display: inline-flex;  
+         background-color: #ffc880;
+         box-shadow: 0px 4px 8px #00000060; 
+         border-radius: 10px;
+         
+      }
+
+      .lado img{
+         width: 40%; 
+         border-radius: 10px; 
+      }
+
+      @font-face  {
+         font-family: "yes";
+         src: url("fonts/Cathylise Janetson.otf");
+         font-weight: normal;
+         font-style: normal; 
+      }
+
+      .lado h1{
+         White-space: nowrap;
+         font-size: 40px;
+         font-family: yes;
+         font-weight: normal; 
+         margin: auto; 
+      }
+
+
+
+      nav a{
+         color: black;
+         text-transform: uppercase;
+         font-weight: bold;
+         text-decoration: none;
+         white-space: nowrap;
+         word-spacing: 0;
+         
+      }
+      nav a:hover{
+         background-color: #ffbe31ca;
+         color: black; 
+         transition: 0.2s; 
+      }
+
+      nav li:hover{
+         font-size: 20px;
+      }
+      
+      nav ul{
+         float: right;
+         list-style: none;   
+      }  
+
+      nav li{
+         display: inline;
+         margin-right: 4px;
+      }
+
+      main p{
+         text-align: justify ;
+
+         
+         padding: 20px;
+      }

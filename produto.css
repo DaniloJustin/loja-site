@@ -4,7 +4,7 @@
       }
 
       body{
-      background-color: #ffe8bab4;
+      background-color: #e6c88db4;
       max-width: 500px;
       min-width: 300px; 
       margin: auto;
@@ -51,7 +51,7 @@
          
       }
       nav a:hover{
-         background-color: #ffbe31ca;
+         background-color: #e25151c7;
          color: black; 
          transition: 0.2s; 
       }

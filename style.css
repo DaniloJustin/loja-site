@@ -4,7 +4,7 @@
       }
 
       body{
-      background-color: #ffe8bab4; 
+      background-color: #e7e7e7b4; 
       max-width: 500px;
       min-width: 300px; 
       margin: auto;
@@ -24,8 +24,8 @@
          
       }
       nav a:hover{
-         background-color: #ffbe31ca;
-         color: black;
+         background-color: #241f1f67;
+         color: rgb(0, 0, 0);
          transition: 0.2s; 
       }
       
@@ -46,14 +46,17 @@
 
       .cabecalho{
          display: inline-flex;  
-         background-color: #ffc880;
-         box-shadow: 0px 4px 8px #00000060; 
-         border-radius: 10px;  
+         box-shadow: 0px 4px 8px #2f2f2f2c; 
+         border-radius: 10px; 
+         padding: 0 auto; 
+   
       }
          
-      .cabecalho img{  
+      #banner{ 
+         height: auto;
          width: 40%; 
-         border-radius: 10px;     
+         border-radius: 10px;
+         padding: 5px;     
       }
 
 
@@ -72,7 +75,7 @@
          
          White-space: nowrap;
          font-family: yes;
-         font-size: 40px;
+         font-size: 20px;
          text-align: justify; 
          font-weight: normal;
          
